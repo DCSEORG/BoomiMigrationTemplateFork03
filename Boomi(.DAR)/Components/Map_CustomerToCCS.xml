@@ -1,1 +1,8 @@
+<Map id="map-ccs-01" name="MapCustomerToCCS" type="MapComponent">
+  <SourceProfile>prof-out-01</SourceProfile>
+  <TargetProfile>prof-in-01</TargetProfile>
+  <FieldMapping source="CustomerId" target="id"/>
+  <FieldMapping source="Name" target="fullName"/>
+  <FieldMapping source="Email" target="emailAddress"/>
+</Map>
 
