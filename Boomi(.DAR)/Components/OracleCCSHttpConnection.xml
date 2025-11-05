@@ -1,1 +1,9 @@
+<ConnectionComponent id="conn-http-01" name="OracleCCS HTTP" type="HTTPConnector">
+  <ConnectionURL>https://ccs.example.com/api/customers</ConnectionURL>
+  <HTTPMethod>POST</HTTPMethod>
+  <ContentType>application/json</ContentType>
+  <AuthenticationType>Basic</AuthenticationType>
+  <Username>${CCS_USER}</Username>
+  <Password encrypted="true">${CCS_PASS}</Password>
+</ConnectionComponent>
 
