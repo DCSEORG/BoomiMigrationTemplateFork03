@@ -1,0 +1,47 @@
+# Azure deployment files
+*.parameters.local.json
+*.env
+.env
+.env.*
+!.env.example
+
+# Secrets and sensitive data
+secrets/
+*.secret
+*.pem
+*.key
+*.pfx
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+out/
+infrastructure/*.json
+!infrastructure/parameters.json
+
+# Node modules (if any)
+node_modules/
+
+# Python (if any)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
