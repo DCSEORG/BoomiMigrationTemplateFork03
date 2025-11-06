@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "logicAppName": {
+      "value": "logic-sql-to-oracle-sync"
+    },
+    "sqlConnectionName": {
+      "value": "sql-connection"
+    },
+    "sqlServerFqdn": {
+      "value": "YOUR_SQL_SERVER.database.windows.net"
+    },
+    "sqlDatabaseName": {
+      "value": "YOUR_DATABASE_NAME"
+    },
+    "sqlUsername": {
+      "value": "YOUR_SQL_USERNAME"
+    },
+    "sqlPassword": {
+      "value": "YOUR_SQL_PASSWORD"
+    },
+    "sqlTableName": {
+      "value": "dbo.Customer"
+    },
+    "oracleConnectionName": {
+      "value": "oracle-connection"
+    },
+    "oracleServer": {
+      "value": "YOUR_ORACLE_SERVER"
+    },
+    "oraclePort": {
+      "value": "1521"
+    },
+    "oracleServiceName": {
+      "value": "YOUR_ORACLE_SERVICE_NAME"
+    },
+    "oracleUsername": {
+      "value": "YOUR_ORACLE_USERNAME"
+    },
+    "oraclePassword": {
+      "value": "YOUR_ORACLE_PASSWORD"
+    },
+    "oracleTableName": {
+      "value": "CUSTOMER_CCS"
+    },
+    "tags": {
+      "value": {
+        "Environment": "Development",
+        "Application": "SQL-Oracle-Sync",
+        "ManagedBy": "Bicep"
+      }
+    }
+  }
+}
