@@ -86,8 +86,11 @@ az deployment group create \
 ## 📖 Documentation
 
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 3 steps
+- **[CHECKLIST.md](CHECKLIST.md)** - Pre-deployment checklist
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Comprehensive deployment guide
-- **[infrastructure/README.md](infrastructure/README.md)** - Infrastructure details
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Architecture diagrams and details
+- **[SOLUTION_SUMMARY.md](SOLUTION_SUMMARY.md)** - Complete solution overview
+- **[infrastructure/README.md](infrastructure/README.md)** - Infrastructure documentation
 
 ## 🔒 Security Notes
 
