@@ -1,7 +1,9 @@
 # Azure deployment files
 *.parameters.local.json
 *.env
+.env
 .env.*
+!.env.example
 
 # Secrets and sensitive data
 secrets/
